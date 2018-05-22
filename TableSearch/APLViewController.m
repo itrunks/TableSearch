@@ -81,7 +81,7 @@
     NSMutableArray *scopeButtonTitles = [[NSMutableArray alloc] init];
     [scopeButtonTitles addObject:NSLocalizedString(@"All", @"Title for the All button in the search display controller.")];
 
-    for (NSString *deviceType in [APLProduct deviceTypeNames])
+    for (NSString *deviceType in [APLProduct deviceTypeNames]);
     {
         NSString *displayName = [APLProduct displayNameForType:deviceType];
         [scopeButtonTitles addObject:displayName];
